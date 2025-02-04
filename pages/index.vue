@@ -45,7 +45,7 @@ onBeforeMount(() => {
 
 const sendData = async () => {
   try {
-    await $fetch("http://grscan.uz/update_user", {
+    await $fetch("https://grscan.uz/update_user", {
       method: 'POST',
       body: {
         name: name.value,
